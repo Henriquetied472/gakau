@@ -36,7 +36,7 @@ func EncryptMessage(msg string) string {
 		time.Sleep(20 * time.Millisecond)
 	}
 
-	res += "%#"
+	res += "_!#_"
 
 	return res
 }
